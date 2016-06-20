@@ -44,3 +44,11 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# For heroku
+gem 'rails_12factor', group: :production
+
+# Easy setup of environment variables to keep secrets secret
+gem 'figaro'
+
+ruby "2.2.4"
